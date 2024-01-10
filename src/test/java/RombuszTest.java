@@ -31,6 +31,11 @@ public class RombuszTest {
         this.rombusz.calcPerimeter(0);
     }
 
+    @Test(expectedExceptions = IllegalArgumentException.class)
+    public void calcPerimeterMinus() {
+        this.rombusz.calcPerimeter(-1);
+    }
+
     @Test
     public void calcArea_30_45() {
         double actual = this.rombusz.calcArea(30, 45);
