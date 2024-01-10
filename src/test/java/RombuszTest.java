@@ -8,11 +8,12 @@ public class RombuszTest {
 
     @BeforeTest
     public void setup() {
-        rombusz = new Rombusz();
+        this.rombusz = new Rombusz();
     }
 
     @Test
     public void calcArea() {
-        double actual = rombusz.calcArea();
+        double actual = this.rombusz.calcArea();
+        double expected = 636.3;
     }
 }
