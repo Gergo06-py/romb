@@ -1,7 +1,7 @@
 package com.example;
 
 public class Rombusz {
-    public void calcArea() {
-        
+    public double calcArea() {
+        return 0.0;
     }
 }
