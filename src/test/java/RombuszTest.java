@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -15,5 +16,6 @@ public class RombuszTest {
     public void calcArea() {
         double actual = this.rombusz.calcArea();
         double expected = 636.3;
+        Assert.assertEquals(actual, expected, 0.1);
     }
 }
