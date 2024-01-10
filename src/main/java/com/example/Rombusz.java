@@ -2,7 +2,7 @@ package com.example;
 
 public class Rombusz {
     public double calcPerimeter(double side) {
-        if (side == 0)
+        if (side <= 0)
             throw new IllegalArgumentException();
 
         return 4 * side;
