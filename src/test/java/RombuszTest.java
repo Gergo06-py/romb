@@ -25,4 +25,9 @@ public class RombuszTest {
         double expected = 12470.7;
         Assert.assertEquals(actual, expected, 0.1);
     }
+
+    @Test(expectedExceptions = IllegalArgumentException.class)
+    public void calcAreaNullSide() {
+        this.rombusz.calcArea(0, 45);
+    }
 }
