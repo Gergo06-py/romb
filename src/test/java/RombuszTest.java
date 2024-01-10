@@ -28,6 +28,11 @@ public class RombuszTest {
 
     @Test(expectedExceptions = IllegalArgumentException.class)
     public void calcAreaNullSide() {
-        this.rombusz.calcArea(0, 45);
+        this.rombusz.calcArea(0, 1);
+    }
+
+    @Test(expectedExceptions = IllegalArgumentException.class)
+    public void calcAreaNullDeg() {
+        this.rombusz.calcArea(1, 0);
     }
 }
