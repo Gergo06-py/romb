@@ -13,6 +13,11 @@ public class RombuszTest {
     }
 
     @Test
+    public void calcPerimeter() {
+        this.rombusz.calcPerimeter();
+    }
+
+    @Test
     public void calcArea_30_45() {
         double actual = this.rombusz.calcArea(30, 45);
         double expected = 636.3;
