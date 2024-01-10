@@ -26,6 +26,11 @@ public class RombuszTest {
         Assert.assertEquals(actual, expected, 0.1);
     }
 
+    @Test(expectedExceptions = IllegalArgumentException.class)
+    public void calcPerimeterNull() {
+        this.rombusz.calcPerimeter(0);
+    }
+
     @Test
     public void calcArea_30_45() {
         double actual = this.rombusz.calcArea(30, 45);
