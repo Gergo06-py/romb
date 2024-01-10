@@ -14,7 +14,7 @@ public class RombuszTest {
 
     @Test
     public void calcPerimeter() {
-        this.rombusz.calcPerimeter();
+        double actual = this.rombusz.calcPerimeter();
     }
 
     @Test
