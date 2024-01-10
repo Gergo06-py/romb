@@ -13,6 +13,6 @@ public class RombuszTest {
 
     @Test
     public void calcArea() {
-        rombusz.calcArea();
+        double actual = rombusz.calcArea();
     }
 }
