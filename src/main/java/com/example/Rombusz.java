@@ -1,6 +1,10 @@
 package com.example;
 
 public class Rombusz {
+    public void calcPerimeter() {
+
+    }
+
     public double calcArea(double side, double deg) {
         if (side == 0 || deg == 0)
             throw new IllegalArgumentException();
