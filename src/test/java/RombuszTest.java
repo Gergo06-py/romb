@@ -13,8 +13,8 @@ public class RombuszTest {
     }
 
     @Test
-    public void calcArea() {
-        double actual = this.rombusz.calcArea();
+    public void calcArea_30() {
+        double actual = this.rombusz.calcArea(30, 45);
         double expected = 636.3;
         Assert.assertEquals(actual, expected, 0.1);
     }
