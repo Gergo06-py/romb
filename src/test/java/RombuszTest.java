@@ -13,16 +13,16 @@ public class RombuszTest {
     }
 
     @Test
-    public void calcPerimeter_30() {
-        double actual = this.rombusz.calcPerimeter(30);
-        double expected = 120.0;
+    public void calcPerimeter_58() {
+        double actual = this.rombusz.calcPerimeter(58);
+        double expected = 232.0;
         Assert.assertEquals(actual, expected, 0.1);
     }
 
     @Test
-    public void calcPerimeter_120() {
-        double actual = this.rombusz.calcPerimeter(120);
-        double expected = 360.0;
+    public void calcPerimeter_83() {
+        double actual = this.rombusz.calcPerimeter(83);
+        double expected = 332.0;
         Assert.assertEquals(actual, expected, 0.1);
     }
 

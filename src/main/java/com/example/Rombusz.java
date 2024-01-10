@@ -2,7 +2,7 @@ package com.example;
 
 public class Rombusz {
     public double calcPerimeter(double side) {
-        return 120.0;
+        return 4 * side;
     }
 
     public double calcArea(double side, double deg) {
