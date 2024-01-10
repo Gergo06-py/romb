@@ -1,8 +1,8 @@
 package com.example;
 
 public class Rombusz {
-    public void calcPerimeter() {
-
+    public double calcPerimeter() {
+        return 0.0;
     }
 
     public double calcArea(double side, double deg) {
