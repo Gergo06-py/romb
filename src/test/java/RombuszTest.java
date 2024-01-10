@@ -54,4 +54,9 @@ public class RombuszTest {
     public void calcAreaNullDeg() {
         this.rombusz.calcArea(1, 0);
     }
+
+    @Test(expectedExceptions = IllegalArgumentException.class)
+    public void calcAreaMinusDeg() {
+        this.rombusz.calcArea(1, -1);
+    }
 }
