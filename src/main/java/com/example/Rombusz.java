@@ -1,3 +1,12 @@
+/*
+    * File: Rombusz.java
+    * Author: Borbély Gergő Árpád
+    * Copyright: 2024, Borbély Gergő Árpád
+    * Date: 2024-01-10
+    * Web: https://github.com/Gergo06-py/romb
+    * Licenc: MIT
+*/
+
 package com.example;
 
 public class Rombusz {
