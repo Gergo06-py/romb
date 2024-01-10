@@ -15,6 +15,8 @@ public class RombuszTest {
     @Test
     public void calcPerimeter_30() {
         double actual = this.rombusz.calcPerimeter(30);
+        double expected = 120.0;
+        Assert.assertEquals(actual, expected, 0.1);
     }
 
     @Test
